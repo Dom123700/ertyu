@@ -72,13 +72,13 @@ module.exports.run = async (client, message) => {
         if (parseInt(response3) < 1 || isNaN(parseInt(response3))) {
           return msg.edit(
            
-              "Boi! Winners Must Be A Number or greater than equal to one!\n**Try Again?**\n Example ``1``,``10``, etcetra."+ `\n\nYou may cancel this giveaway by typing \`cancel\` in chat`
+              "Winners Must Be A Number or greater than equal to one!\n**Try Again?**\n Example ``1``,``10``, etcetra."+ `\n\nYou may cancel this giveaway by typing \`cancel\` in chat`
           );
         } else {
           winnersCount = parseInt(response3);
           collector3.stop(
             msg.edit(
-                `🎉 Alright, Generous Human! Next, What should be the prize for this giveaway?`+ `\n\nYou may cancel this giveaway by typing \`cancel\` in chat`
+                `🎉 Next, What should be the prize for this giveaway?`+ `\n\nYou may cancel this giveaway by typing \`cancel\` in chat`
             )
           );
         }
