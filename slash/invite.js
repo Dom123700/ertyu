@@ -13,7 +13,7 @@ module.exports = {
         new MessageButton()
         .setLabel('Support Server')
         .setStyle('LINK')
-        .setURL("https://discord.gg/ARu4hr6hJw"),
+        .setURL("https://discord.gg/dvvp5Xb8R5"),
     )
     let invite = new MessageEmbed()
     .setAuthor(`Invite ${client.user.username} `, client.user.avatarURL())
