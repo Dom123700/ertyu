@@ -8,7 +8,7 @@ module.exports = {
     .setDescription(
       `Your entry to [This Giveaway](https://discord.com/channels/${giveaway.guildId}/${giveaway.channelId}/${giveaway.messageId}) has been approved!`
     )
-    .setFooter("Subscribe to ZeroSync on YT!")
+    .setFooter("Made by ZeroSync")
     .setTimestamp()
    let denied =  new Discord.MessageEmbed()
     .setTimestamp()
