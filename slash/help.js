@@ -8,7 +8,6 @@ module.exports = {
         .setTitle(`Commands of ${client.user.username}`)
         .setColor('#2F3136')
         .setDescription('**Please Select a category to view all its commands**')
-        .addField(`Links:`,`- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`,true)
         .setTimestamp()
         .setFooter(`Requested by ${interaction.user.username} | GiveawayBot™ v3 By ZeroSync`, interaction.user.displayAvatarURL());
         
