@@ -17,7 +17,7 @@ module.exports = {
     .setDescription(
       `Your entry to [This Giveaway](https://discord.com/channels/${giveaway.guildId}/${giveaway.channelId}/${giveaway.messageId}) has been denied, please review the requirements to the giveaway properly.`
     )
-    .setFooter("Subscribe to ZeroSync on YT!")
+    .setFooter("Made by ZeroSync")
 
     let client = messageReaction.message.client
     if (reactor.user.bot) return;
