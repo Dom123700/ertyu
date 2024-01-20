@@ -95,7 +95,7 @@ module.exports.run = async (client, message) => {
           return msg.edit({
             embeds: [
               embed.setDescription(
-                "Boi! Winners Must Be A Number or greater than equal to one!\n**Try Again?**\n Example ``1``,``10``, etcetra."
+                "Winners Must Be A Number or greater than equal to one!\n**Try Again?**\n Example ``1``,``10``, etcetra."
               )]
           }
           );
@@ -105,7 +105,7 @@ module.exports.run = async (client, message) => {
             msg.edit({
               embeds: [
                 embed.setDescription(
-                  `Alright, Generous Human! Next, What should be the new prize for the giveaway?\n**Must Reply within 30 seconds!**`
+                  `Next, What should be the new prize for the giveaway?\n**Must Reply within 30 seconds!**`
                 )]
             }
             )
