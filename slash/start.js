@@ -121,7 +121,6 @@ module.exports = {
               icon_url: client.user.avatarURL
             },
             title: "Server Check!",
-            url: "https://youtube.com/c/ZeroSync",
             description:
               "Woah woah woah! I see a new server! are you sure I am in that? You need to invite me there to set that as a requirement! 😳",
             timestamp: new Date(),
