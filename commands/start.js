@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     !message.member.roles.cache.some(r => r.name === "Giveaways")
   ) {
     return message.reply(
-      ":x: You need to have the manage messages permissions to start giveaways."
+      ":x: You do not have the permission to start giveaways."
     );
   }
 
